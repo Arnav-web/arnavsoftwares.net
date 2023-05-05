@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Arnav Softwares</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="w3.css">
+    <link rel="shortcut icon" href="../img/logo/2.png" type="image/png">
+</head>
+<body style="background-color: #212121;">
+    <!-- Sidebar -->
+    <div class="w3-sidebar w3-round w3-animate-bottom w3-bar-block w3-black" style="display:none; box-shadow: 0 2rem 3rem rgba(0,0,0,1);" id="mySidebar">
+        <button onclick="w3_close()" class="w3-bar-item w3-black w3-display-bottom w3-xxlarge" style="margin: 0; padding: 0; padding-left: 8px;">&times;</button>
+        <br>
+        <br>
+        <a href="../index.html" class="w3-bar-item w3-button">Home</a>
+        <button class="w3-button w3-block w3-left-align" onclick="myAccFunc()">
+            Softwares <i class="fa fa-caret-down"></i>
+            </button>
+            <div id="demoAcc" class="w3-hide w3-dark-grey w3-card">
+              <a href="../auraos/index.html" class="w3-bar-item w3-button">AuraOS</a>
+              <a href="../auraweb/index.html" class="w3-bar-item w3-button">AuraWeb</a>
+            </div>
+        <a href="#" class="w3-bar-item w3-button w3-green">About</a>
+    </div>
+    <div class="w3-bar w3-black" id="desktop">
+        <a href="#" class="w3-bar-item" style="height: 30px;"><img alt="" src="../img/logo/favicon(1).ico"></a>
+        <a class="w3-bar-item">Arnav Softwares</a>
+        <a href="../index.html" class="w3-bar-item w3-button">Home</a>
+        <div class="w3-dropdown-hover">
+          <button class="w3-button">Softwares <i class="fa fa-caret-down"></i></button>
+          <div class="w3-dropdown-content w3-bar-block w3-dark-grey">
+            <a href="#" class="w3-bar-item w3-button">AuraOS</a>
+            <a href="../auraweb/index.html" class="w3-bar-item w3-button">AuraWeb</a>
+          </div>
+        </div>
+        <a href="#" class="w3-bar-item w3-button w3-green">About</a>
+      </div>
+    <div style="width: 100%; height: 100%;" id="all">
+        <div class="w3-black" id="mobile">
+            <button class="w3-button w3-xlarge" onclick="w3_open()">☰</button>
+            <div>
+            <img alt="" src="../img/logo/2.png" style="margin: 0; padding: 0;" height="100%" width="80px">
+            <h1>Arnav Softwares</h1>
+            </div>
+        </div>
+        <br>
+        <div class="w3-container" id="banner">
+            <br>
+            <br>
+            <br>
+            <br>
+            <h1>About</h1>
+            <br>
+            <br>
+            <br>
+            <br>
+            <i onclick="document.getElementById('downmain').scrollIntoView({ behavior: 'smooth' });" class="fa fa-caret-down"></i>
+            <br>
+            <br>
+            <br>
+            <br>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div id="downmain" style="padding: 18px;">
+            <div class="w3-container">
+                <h2>About</h2>
+                <div style="text-align: center; vertical-align: middle;">
+                    <div id="atext">
+                        This Website Contains Collection Of Software Made By Arnav Chandanshiv. 
+                        These Softwares Are Open-Source And Can Be Found On My <a href="https://www.github.com/arnav-web">Github Page</a>. 
+                        You Can Follow Me On My Social Media Linked Below. "Arnav Softwares" Is Neither A Company / Corporation Nor A Trademark. 
+                        Microsoft, Windows, And Windows logo Are Trademarks Of Microsoft Corporation And Does Not Belong To Me.
+                    </div>
+                </div>
+            </div>
+            <div style="margin: auto;">
+            <a href="https://youtube.com/@techtolve" class="fa fa-youtube"></a>
+            <a href="https://github.com/arnav-web" class="fa fa-github"></a>
+            </div>
+        </div>
+        <div class="w3-container w3-black" style="display: flex;">
+            <h5>Made Proudly In India By Arnav.</h5>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/bb20284797.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>

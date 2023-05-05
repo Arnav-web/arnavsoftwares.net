@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AuraOS - Arnav Softwares</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="w3.css">
+    <link rel="shortcut icon" href="../../img/logo/2.png" type="image/png">
+</head>
+<body style="background-color: #212121;">
+    <!-- Sidebar -->
+    <div class="w3-sidebar w3-round w3-animate-bottom w3-bar-block w3-black" style="display:none; box-shadow: 0 2rem 3rem rgba(0,0,0,1);" id="mySidebar">
+        <button onclick="w3_close()" class="w3-bar-item w3-black w3-display-bottom w3-xxlarge" style="margin: 0; padding: 0; padding-left: 8px;">&times;</button>
+        <br>
+        <br>
+        <a href="../../index.html" class="w3-bar-item w3-button">Home</a>
+        <button class="w3-button w3-block w3-green w3-left-align" onclick="myAccFunc()">
+            Softwares <i class="fa fa-caret-down"></i>
+            </button>
+            <div id="demoAcc" class="w3-hide w3-dark-grey w3-card">
+              <a href="#" class="w3-bar-item w3-button w3-green">AuraOS</a>
+              <a href="../../auraweb/index.html" class="w3-bar-item w3-button">AuraWeb</a>
+            </div>
+        <a href="../../about/index.html" class="w3-bar-item w3-button">About</a>
+    </div>
+    <div class="w3-bar w3-black" id="desktop">
+        <a href="#" class="w3-bar-item" style="height: 30px;"><img alt="" src="../../img/logo/favicon(1).ico"></a>
+        <a class="w3-bar-item">Arnav Softwares</a>
+        <a href="../../index.html" class="w3-bar-item w3-button">Home</a>
+        <div class="w3-dropdown-hover">
+          <button class="w3-button w3-green">Softwares <i class="fa fa-caret-down"></i></button>
+          <div class="w3-dropdown-content w3-bar-block w3-dark-grey">
+            <a href="#" class="w3-bar-item w3-button w3-green">AuraOS</a>
+            <a href="../../auraweb/index.html" class="w3-bar-item w3-button">AuraWeb</a>
+          </div>
+        </div>
+        <a href="../../about/index.html" class="w3-bar-item w3-button">About</a>
+      </div>
+    <div style="width: 100%; height: 100%;" id="all">
+        <div class="w3-black" id="mobile">
+            <button class="w3-button w3-xlarge" onclick="w3_open()">☰</button>
+            <div>
+            <img alt="" src="../../img/logo/2.png" style="margin: 0; padding: 0;" height="100%" width="80px">
+            <h1>Arnav Softwares</h1>
+            </div>
+        </div>
+        <br>
+        <div class="w3-container" id="banner">
+            <br>
+            <br>
+            <br>
+            <br>
+            <h1>AuraOS</h1>
+            <br>
+            <h3>The First HTML Based Operating System.</h3>
+            <br>
+            <br>
+            <a onclick="document.getElementById('downmain').scrollIntoView({ behavior: 'smooth' });" class="w3-button w3-blue"><i class="fa fa-download"></i> Download Now</a>
+            <br>
+            <br>
+            <br>
+            <br>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div id="downmain" style="padding: 18px;">
+            <h1>Download</h1>
+            To Download AuraOS, Either You Can Download From Here Or You Can Go to The Repository Page <a href="https://github.com/arnav-web/auraos">Here</a>.
+            <div style="margin: 12px;"></div>
+            <div id="links">
+                <h2>Build 0.112</h2>
+                <div><a onclick="document.getElementById('r-notes').scrollIntoView({ behavior: 'smooth' });" href="https://mega.nz/file/0ZZVSSxS#oErcyU6n0qAhSSVPYx4O_4EePMeOM3iJaOIU6sWaxho">auraos_for_vmware_and_pc.vhd</a></div>
+                <div><a onclick="document.getElementById('r-notes').scrollIntoView({ behavior: 'smooth' });" href="https://github.com/Arnav-web/AuraOS/releases/download/pre-alpha0.112electon/auraos-app.exe">auraos_electron_ia32_x64.exe</a></div>
+                <div><a onclick="document.getElementById('r-notes').scrollIntoView({ behavior: 'smooth' });" href="https://github.com/Arnav-web/AuraOS/archive/refs/tags/pre-alpha0.112.zip">auraos_html_code.zip</a></div>
+            </div>
+        </div>
+        <br>
+        <div class="products" id="r-notes" style="padding: 12px; color: white;">
+        <h1>Release Notes - Build 0.112</h1>
+<p>         System Requirements:</p>
+<p></p>
+<p>        - A 15 - 17 Year Old Or Later Computer That Is Compatible With Windows 10 1809</p>
+<p>        - 1GB Of Memory</p>
+<p>        - A 4GB USB Drive</p>
+<p>        - Architecture Should Be 32bit or 64bit</p>
+<p>        - Its A Lite OS!😊</p>
+<p></p>
+<p>         How To Run:</p>
+<p></p>
+<p>         On A VM:</p>
+<p></p>
+<p>        1. Download The vhd File</p>
+<p>        2. Load It Into A VM And Power It On. (Match With System Requirements)</p>
+<p>        3. And Wow! You Just "Booted" Into A New OS!</p>
+<p></p>
+<p>         On A Real PC:</p>
+<p></p>
+<p>        1. Insert A 4GB Or Bigger USB Drive</p>
+<p>        2. Download The .vhd File </p>
+<p>        3. Download Rufus</p>
+<p>        4. Open Rufus And Select Your Pendrive</p>
+<p>       5. Click On Browse... And Choose the .vhd File</p>
+<p>       6. Click On Start (NOTE: IT WILL ERASE ALL YOUR DATA ON THE USB, MAKE URE TO BACK IT UP!)</p>
+<p>        7. Wait Till It Says READY</p>
+<p>        8. Reboot Into BIOS And Change The Boot Order To Boot Into The USB Drive</p>
+<p>        9. Save Changes And Reboot!</p>
+<p>        10. You Will Be Greeted With The Glory Of AuraOS! 😊</p>
+<p></p>
+<p>         Basic Shortcuts:</p>
+<p></p>
+<p>        1. Use Alt + F4 To Get A BSON (Black Screen Of Nothing) (Or Exit If Using Electron Version)</p>
+<p>        11. Use F5 To Refresh Desktop</p>
+<p></p>
+<p>         Info:</p>
+<p></p>
+<p>        - The OS Is Compatible With Both ia32 And x64 (In Simple Words, 32bit And 64bit)</p>
+<p>        - It Is Not Recommended To Use This As Your Main OS Because Its In prealpha Stage</p>
+<p>        - Few Bugs And Incomplete Things Can Be Found</p>
+<p></p>
+<p>         Bugs And Incomplete Component:s</p>
+<p>        You Can Always Check The Source Code For Bugs And Fix Them.</p>
+<p>         (Bug) Minimize Not Working:</p>
+<p></p>
+<p>        This Is An Bug I've Been Working On Days But Cannot Fix.</p>
+<p>        You Can Help Me Fix This Bug By Providing A Solution In</p>
+<p>        The Issues Tab.</p>
+<p></p>
+<p>        The Minimize Button Is Not Working, When You Click On It,</p>
+<p>        It Doesn't Do Anything.</p>
+<p></p>
+<p>         (Incomplete) Some Tiles Do Not Work:</p>
+<p>        I Haven't Made Apps For Some Of The Tiles</p>
+<p></p>
+<p>         **IMPORTANT** (Incomplete) Settings App Is Coming Soon:</p>
+<p>        You Would Not Be Able To Connect To The Internet.</p>
+<p>        But There Are Two Ways To Connect To The Internet:</p>
+<p></p>
+<p>        1. Connect An Ethernet (LAN) Or A Phone With USB Tethering On.</p>
+<p>        2. Press Ctrl + Alt + Del On Your Keyboard And Click On The Network Icon Below, Here Select Your Wi-Fi And Type In The Password.</p>
+<p></p>
+<p>         **IMPORTANT** (Bug) Shutdown Function Is Not Working:</p>
+<p>        You Would Not Be Able To Shutdown Your PC.</p>
+<p>        But There Are Two Ways To Shutdown/Reboot:</p>
+<p></p>
+<p>        1. Force Shutdown It.</p>
+<p>        2. Press Ctrl + Alt + Del On Your Keyboard And Click On The Power Icon Below, Here Select Shutdown or Restart.</p>
+<p></p>
+<p>         (Bug) Browser Is Going Crazy :</p>
+<p>        The Browser Is Going Crazy.</p>
+<p></p>
+<p>         (Bug) You Cannot Access The Filesystem</p>
+<p></p>
+<p>         Copyright Info:</p>
+<p>        Microsoft, Windows, And Windows Logo Are The Trademark Of Microsoft Corporation And Does Not Belong To Me.</p>
+<p></p>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="w3-container w3-black" style="display: flex;">
+        <h5>Made Proudly In India By Arnav.</h5>
+        <div>
+            <br>
+            <A href="https://youtube.com/@techtolve"><i class="fa fa-youtube" style="position: absolute; right: 12px;"></i></A>
+        </div>
+    </div>
+    </div>
+    <script src="https://kit.fontawesome.com/bb20284797.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>

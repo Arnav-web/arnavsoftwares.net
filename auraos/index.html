@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AuraOS - Arnav Softwares</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="w3.css">
+    <link rel="shortcut icon" href="../img/logo/2.png" type="image/png">
+</head>
+<body style="background-color: #212121;">
+    <!-- Sidebar -->
+    <div class="w3-sidebar w3-round w3-animate-bottom w3-bar-block w3-black" style="display:none; box-shadow: 0 2rem 3rem rgba(0,0,0,1);" id="mySidebar">
+        <button onclick="w3_close()" class="w3-bar-item w3-black w3-display-bottom w3-xxlarge" style="margin: 0; padding: 0; padding-left: 8px;">&times;</button>
+        <br>
+        <br>
+        <a href="../index.html" class="w3-bar-item w3-button">Home</a>
+        <button class="w3-button w3-block w3-green w3-left-align" onclick="myAccFunc()">
+            Softwares <i class="fa fa-caret-down"></i>
+            </button>
+            <div id="demoAcc" class="w3-hide w3-dark-grey w3-card">
+              <a href="#" class="w3-bar-item w3-button w3-green">AuraOS</a>
+              <a href="../auraweb/index.html" class="w3-bar-item w3-button">AuraWeb</a>
+            </div>
+        <a href="../about/index.html" class="w3-bar-item w3-button">About</a>
+    </div>
+    <div class="w3-bar w3-black" id="desktop">
+        <a href="#" class="w3-bar-item" style="height: 30px;"><img alt="" src="../img/logo/favicon(1).ico"></a>
+        <a class="w3-bar-item">Arnav Softwares</a>
+        <a href="../index.html" class="w3-bar-item w3-button">Home</a>
+        <div class="w3-dropdown-hover">
+          <button class="w3-button w3-green">Softwares <i class="fa fa-caret-down"></i></button>
+          <div class="w3-dropdown-content w3-bar-block w3-dark-grey">
+            <a href="#" class="w3-bar-item w3-button w3-green">AuraOS</a>
+            <a href="../auraweb/index.html" class="w3-bar-item w3-button">AuraWeb</a>
+          </div>
+        </div>
+        <a href="../about/index.html" class="w3-bar-item w3-button">About</a>
+      </div>
+    <div style="width: 100%; height: 100%;" id="all">
+        <div class="w3-black" id="mobile">
+            <button class="w3-button w3-xlarge" onclick="w3_open()">☰</button>
+            <div>
+            <img alt="" src="../img/logo/2.png" style="margin: 0; padding: 0;" height="100%" width="80px">
+            <h1>Arnav Softwares</h1>
+            </div>
+        </div>
+        <br>
+        <div class="w3-container" id="banner">
+            <br>
+            <br>
+            <br>
+            <br>
+            <h1>AuraOS</h1>
+            <br>
+            <h3>The First HTML Based Operating System.</h3>
+            <br>
+            <br>
+            <i onclick="document.getElementById('downmain').scrollIntoView({ behavior: 'smooth' });" class="fa fa-caret-down"></i>
+            <br>
+            <br>
+            <br>
+            <br>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div id="downmain" style="padding: 18px;">
+        <h1>Features</h1>
+        <div style="margin-left: auto; margin-right: auto; display: flex;">
+            <div id="down" class="w3-container w3-round" style="display: flex; vertical-align: middle;">
+                <img src="../img/carousel/pallete3.png" alt="" width="200px" height="100%" style="margin: auto;">
+                <div style="width: 8px;"></div>
+                <div style="text-align: center;">
+                <h2>Modern UI</h2>
+                <div style="vertical-align: middle;">
+                        AuraOS Comes With A New Modern UI That Looks Sleek And Modern.
+                </div>
+                </div>
+            </div>
+            <br>
+            <div id="down" class="w3-container w3-round" style="display: flex; vertical-align: middle;">
+                <div style="text-align: center;">
+                <h2>Very, Very Lite.</h2>
+                <div style="vertical-align: middle;">
+                        AuraOS Is Smaller Then A Windows 10 64bit Installer ISO And Needs Only 1GB Memory.
+                </div>
+                </div>
+                <div style="width: 8px;"></div>
+                <img src="../img/carousel/pallete4.png" alt="" width="200px" height="100%" style="margin: auto;">
+            </div>
+        </div>
+        </div>
+        <br>
+        <div class="products" style="padding: 12px; color: white;">
+        <h1>Screenshots</h1>
+            <div style="display: flex;">
+                <img src="../img/carousel/pallete3.png" alt="" width="400px" height="100%" style="margin: auto;">
+                <div style="width: 8px;"></div>
+                <img src="../img/carousel/pallete5.png" alt="" width="400px" height="100%" style="margin: auto;">
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="w3-container" id="banner">
+        <br>
+        <br>
+        <br>
+        <br>
+        <h1>Want It?</h1>
+        <br>
+        <h3>Download It Now For Free.</h3>
+        <br>
+        <br>
+        <a href="../software-download/auraos/index.html" class="w3-button w3-blue"><i class="fa fa-download"></i> Download Now</a>
+        <br>
+        <br>
+        <br>
+        <br>
+    </div>
+    <br>
+    <br>
+    <div class="w3-container w3-black" style="display: flex;">
+        <h5>Made Proudly In India By Arnav.</h5>
+        <div>
+            <br>
+            <A href="https://youtube.com/@techtolve"><i class="fa fa-youtube" style="position: absolute; right: 12px;"></i></A>
+        </div>
+    </div>
+    </div>
+    <script src="https://kit.fontawesome.com/bb20284797.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>
